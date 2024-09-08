@@ -1,14 +1,8 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
-        mavenCentral()
         gradlePluginPortal()
+        google()
+        mavenCentral()
     }
 }
 dependencyResolutionManagement {
@@ -22,3 +16,6 @@ dependencyResolutionManagement {
 rootProject.name = "RickAndMorty"
 include(":app")
 include(":data_remote")
+include(":repository")
+include(":core:commons")
+include(":domain:characters_usecase")
