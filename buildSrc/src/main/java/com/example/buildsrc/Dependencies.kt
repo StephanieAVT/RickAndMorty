@@ -2,6 +2,7 @@ object Dependencies {
     object Modules {
         object Core {
             const val commons = ":core:commons"
+            const val core = ":core:core"
         }
 
         object Data {
@@ -31,7 +32,7 @@ object Dependencies {
 
     object External {
         const val koinCore = "io.insert-koin:koin-core:3.4.0"
-        const val koinAndroid = "io.insert-koin:koin-android:3.4.0"
+        const val koinAndroid = "io.insert-koin:koin-android:3.5.0"
         const val okHttp = "com.squareup.okhttp3:okhttp:4.11.0"
         const val okHttpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:4.11.0"
         const val retrofit = "com.squareup.retrofit2:retrofit:2.9.0"
